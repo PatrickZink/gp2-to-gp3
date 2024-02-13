@@ -12,6 +12,7 @@ Run ```./gp2_export.sh``` in the AWS CloudShell
 Download from AWS CloudShell the ```gp2_to_gp3_volumes.csv``` File
 
 Check the script's output and adjust the IOPS and Throughput if needed. The script sets these to match GP2 performance. If you don't need more than the GP3 baseline of 3000 IOPS and 125 MiB/s Throughput, you can lower the values to save costs.
+
 ![image](https://github.com/PatrickZink/gp2-to-gp3/assets/70896863/9993f9e2-ddf0-4234-9bc8-bf3675777a99)
 
 These figures can be input into the AWS Calculator using the [Bulk Import](https://calculator.aws/#/bulk-import) feature to estimate the costs related to the GP2 EBS volumes. This lets you easily compare costs between GP2 and GP3 volumes and see how much you could save by migrating from GP2 to GP3.
